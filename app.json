@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/Kyara/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/JJCbattle/index",
+    "pages/KyaraData/index",
+    "pages/Mypage/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#92E4C3",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/Kyara/index",
+        "text": "角色",
+        "iconPath": "items/static/button/kyara.png",
+        "selectedIconPath": "items/static/button/kyara.png"
+      },
+      {
+        "pagePath": "pages/JJCbattle/index",
+        "text": "竞技场",
+        "iconPath":"https://redive.estertion.win/icon/unit/100361.webp",
+        "selectedIconPath": "items/static/android-chrome-256x256.png"
+      },
+      {
+        "pagePath": "pages/Mypage/index",
+        "text": "我的",
+        "iconPath": "items/static/button/Maho（summer）.png",
+        "selectedIconPath": "items/static/button/Maho（summer）.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
